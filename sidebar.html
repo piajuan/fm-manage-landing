@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <!-- plugins -->
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+        <script src="https://kit.fontawesome.com/0daf736297.js" crossorigin="anonymous"></script>
+        <title>Sidebar</title>
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    </head>
+
+    <body>
+        <aside class="w-64 min-h-screen h-full bg-gray-900 rounded-md overflow-auto fixed">
+            <div class="px-4 pt-6">
+                <!-- logo section -->
+                <div class="flex items-center justify-between">
+                    <a href="" class="bg-blue-600 p-1.5 rounded flex items-center text-white"><i class="fab fa-accusoft"></i></a>
+                    <button class="flex items-center justify-center p-1.5 rounded bg-gray-800 text-gray-400 text-sm"><i class="fas fa-arrow-left"></i></button>
+                </div>
+            </div>
+            <!-- input -->
+            <div class="px-4 pt-4">
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-2 flex items-center text-gray-200">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <input type="text" class="d-block w-full rounded p-2 px-4 pl-8 text-sm font-light bg-gray-800 text-gray-200 placeholder-gray-500" placeholder="search">
+                </div>
+            </div>
+            <!-- hr -->
+            <div class="px-4 pt-4">
+                <hr class="border-gray-700">
+            </div>
+            <!-- menu -->
+            <div class="px-4 pt-4">
+                <ul class="flex flex-col space-y-2">
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-chart-pie mr-2"></i> Dashboard</a>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-file-alt mr-2"></i> Content <div class="absolute right-0 p-1 px-2 inset-y-0 flex items-center">
+                                <i class="fas fa-chevron-down"></i>
+                            </div></a>
+                        <!-- submenu -->
+                        <div class="pl-5">
+                            <ul class="pl-2 border-l border-gray-500">
+                                <li class="">
+                                    <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> Category </a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> Category </a>
+                                </li>
+                                <li class="">
+                                    <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> Category </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-layer-group mr-2"></i> Design</a>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-tag mr-2"></i> Market & Sell</a>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-chart-bar mr-2"></i>Reporting</a>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-life-ring mr-2"></i> Support</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- hr -->
+            <div class="px-4 pt-8">
+                <hr class="border-gray-700">
+            </div>
+            <!-- menu -->
+            <div class="px-4 pt-4">
+                <ul class="flex flex-col space-y-2">
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-chart-pie mr-2"></i> Dashboard</a>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-layer-group mr-2"></i> Design</a>
+                    </li>
+                    <!-- menu item -->
+                    <li class="">
+                        <a href="" class="flex items-baseline w-full relative rounded px-4 py-2 pr-[28px] text-gray-500 text-sm hover:bg-gray-800 hover:text-white transition-all"> <i class="fas fa-tag mr-2"></i> Market & Sell</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-darkGray px-6 py-3 mt-3">
+                <div class="flex items-center space-x-3 relative">
+                    <div class="relative  w-8 h-8 rounded-full before:absolute before:w-2 before:h-2 before:bg-green-500 before:rounded-full before:right-0 before:bottom-0 before:ring-1 before:ring-white">
+                        <img class="w-8 h-8 object-cover object-top rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="">
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="text-gray-300 text-sm">Jane Doeson</div>
+                        <span class="text-gray-400 text-xs font-light opacity-60">jandeoe@gmail.com</span>
+                    </div>
+                    <button class="absolute inset-y-0 right-0 text-gray-400">
+                        <i class="fas fa-sort"></i>
+                    </button>
+                </div>
+            </div>
+        </aside>
+        <main class="w-100 min-h-screen bg-gray-800"></main>
+    </body>
+
+</html>

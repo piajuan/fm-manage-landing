@@ -1,0 +1,13 @@
+// usage @include mq($from: mobile);
+
+$mq-breakpoints: (
+    mobile-portrait:                            320px,
+    mobile-landscape:                           480px,
+    tablet-portrait:                            768px,
+    tablet-landscape:                           1024px,
+    desktop-small:                              1200px,
+    desktop-regular:                            1366px,
+    desktop-medium:                             1440px,
+    desktop-medium-large:                       1600px,
+    desktop-large:                              1920px,
+);

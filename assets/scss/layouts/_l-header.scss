@@ -1,0 +1,44 @@
+.menu__hamburger {
+    position: relative;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+}
+
+.hamburger__top,
+.hamburger__middle,
+.hamburger__bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background-color: var(--color-base-black);
+    transform: rotate(0);
+    transition: all 0.5s;
+}    
+
+.hamburger__middle {
+    transform: translateY(7px);
+}
+.hamburger__bottom {
+    transform: translateY(14px);
+}
+
+  // when opened 
+.menu__hamburger.open {
+    transform: rotate(90deg) translateY(0px);
+
+    .hamburger__top {
+        transform: rotate(45deg) translateY(6px) translate(6px);
+    }
+
+    .hamburger__middle {
+        display: none;
+     }
+
+    .hamburger__bottom {
+        transform: rotate(-45deg) translateY(6px) translate(-6px);
+    }
+}

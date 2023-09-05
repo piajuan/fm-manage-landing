@@ -1,0 +1,9 @@
+.swiper-pagination-bullet {
+    background-color: transparent;
+    border: solid 2px var(--brightRed);
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,2px);
+
+    &-active {
+        background-color: var(--brightRed);
+    }
+}
